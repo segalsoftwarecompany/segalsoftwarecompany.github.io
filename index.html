@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Segal Software Development Ltd — Independent Game Studio</title>
+<meta name="description" content="Segal Software Development Ltd is an independent game studio based in Limassol, Cyprus, creating mobile games for iOS and other platforms.">
+<style>
+  :root { --ink:#14161a; --muted:#5b616b; --line:#e6e8ec; --bg:#fbfaf7; --accent:#ff5a36; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; color:var(--ink); background:var(--bg); }
+  a { color:inherit; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+  header { padding:28px 0; display:flex; justify-content:space-between; align-items:center; }
+  .logo { font-weight:800; letter-spacing:-.02em; font-size:20px; text-decoration:none; }
+  .logo span { color:var(--accent); }
+  nav a { margin-left:24px; text-decoration:none; color:var(--muted); font-size:15px; }
+  nav a:hover { color:var(--ink); }
+  .hero { padding:96px 0 88px; }
+  .hero h1 { font-size:clamp(40px,7vw,72px); line-height:1.02; letter-spacing:-.035em; font-weight:800; max-width:12ch; }
+  .hero h1 em { font-style:normal; color:var(--accent); }
+  .hero p { margin-top:24px; font-size:20px; color:var(--muted); max-width:36ch; }
+  section { padding:72px 0; border-top:1px solid var(--line); }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.14em; color:var(--muted); margin-bottom:28px; font-weight:600; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:32px; }
+  .grid h3 { font-size:20px; margin-bottom:8px; letter-spacing:-.01em; }
+  .grid p { color:var(--muted); }
+  .games { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:24px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:20px; padding:28px; }
+  .card .tile { width:64px; height:64px; border-radius:16px; background:linear-gradient(135deg,var(--accent),#ffb340); margin-bottom:20px; }
+  .card h3 { font-size:20px; }
+  .card p { color:var(--muted); margin-top:6px; }
+  .tag { display:inline-block; margin-top:14px; font-size:13px; padding:4px 10px; border-radius:99px; background:#f1f2f4; color:var(--muted); }
+  dl { display:grid; grid-template-columns:max-content 1fr; gap:10px 32px; }
+  dt { color:var(--muted); }
+  footer { padding:40px 0 56px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+  @media (max-width:600px){ nav a { margin-left:14px; } dl { grid-template-columns:1fr; gap:2px; } dd { margin-bottom:12px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="/">segal<span>.</span>software</a>
+    <nav><a href="#games">Games</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <div class="hero">
+    <h1>We make games people <em>come back to.</em></h1>
+    <p>Segal Software Development is an independent game studio in Limassol, Cyprus, building mobile games for iPhone, iPad and beyond.</p>
+  </div>
+
+  <section id="games">
+    <h2>Our games</h2>
+    <div class="games">
+      <div class="card"><div class="tile"></div><h3>Coming soon</h3><p>Our first titles are in final development and will be released on the App Store.</p><span class="tag">iOS · 2026</span></div>
+      <div class="card"><div class="tile" style="background:linear-gradient(135deg,#3b6cff,#7cc4ff)"></div><h3>In development</h3><p>More casual and puzzle games are on the way. Follow along for release news.</p><span class="tag">iOS · Android</span></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About the studio</h2>
+    <div class="grid">
+      <div><h3>Small team, polished games</h3><p>We design, build and publish our own games end to end, with a focus on tight controls, clean art and fair monetization.</p></div>
+      <div><h3>Made in Cyprus</h3><p>We are a registered Cypriot company working with players worldwide.</p></div>
+      <div><h3>Player first</h3><p>No dark patterns. We respect your time and your data — see our <a href="/privacy.html">privacy policy</a>.</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Company &amp; contact</h2>
+    <dl>
+      <dt>Legal name</dt><dd>SEGAL SOFTWARE DEVELOPMENT LTD</dd>
+      <dt>Registration no.</dt><dd>HE 498150 (Republic of Cyprus)</dd>
+      <dt>Address</dt><dd>Avraam Antoniou 15, Office 101, 4106 Limassol, Cyprus</dd>
+      <dt>Director</dt><dd>Natalia Zavtazhnova</dd>
+      <dt>Email</dt><dd><a href="mailto:contact@segalsoftware.com">contact@segalsoftware.com</a></dd>
+      <dt>Phone</dt><dd><a href="tel:+35795951610">+357 95 951610</a></dd>
+    </dl>
+  </section>
+
+  <footer>
+    <span>© 2026 SEGAL SOFTWARE DEVELOPMENT LTD. All rights reserved.</span>
+    <span><a href="/privacy.html">Privacy Policy</a></span>
+  </footer>
+</div>
+</body>
+</html>
